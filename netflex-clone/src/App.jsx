@@ -8,7 +8,10 @@ function App() {
 
   return (
 
-    <h1>Test is good </h1>
+    <div className='App'>
+      <h1> Hello World Adnew</h1>
+    </div>
+    
     // <>
     //   <div>
     //     <a href="https://vite.dev" target="_blank">
@@ -31,7 +34,7 @@ function App() {
     //     Click on the Vite and React logos to learn more
     //   </p>
     // </>
-  )
+  );
 }
 
 export default App
