@@ -1,10 +1,13 @@
 import React from 'react'
-import home from './pages/home/home'
+import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
   return (
-    <div className='App'>
-      <h1>Hello Maryland!</h1>
+      <div>
+          <Header/>
+          <Footer/>
+          
     </div>
   )
 }
